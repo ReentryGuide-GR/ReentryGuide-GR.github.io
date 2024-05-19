@@ -8,6 +8,7 @@
 
 .hero__title {
   color: black; /* Set the title text color to black and ensure it takes precedence */
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 .hero__subtitle {
