@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ReentryGuide GR',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Your Local Resource Navigator',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -40,7 +40,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -54,7 +54,7 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -135,7 +135,17 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      colorMode: {
+        disableSwitch: true, // Disable the theme toggle switch
+      },
     }),
+
+  stylesheets: [
+    {
+      href: 'https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Red+Hat+Display:wght@400;700&display=swap',
+      type: 'text/css',
+    },
+  ],
 };
 
 export default config;

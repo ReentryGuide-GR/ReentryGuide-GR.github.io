@@ -1,14 +1,24 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
- .heroBanner {
+.heroBanner {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start; /* Align items to the left */
+  text-align: left; /* Align text to the left */
+  background-color: transparent; /* Remove the green background */
 }
+
+.hero__title {
+  color: black; /* Set the title text color to black and ensure it takes precedence */
+}
+
+.hero__subtitle {
+  color: black; /* Set the subtitle text color to black and ensure it takes precedence */
+}
+
+/* If there's a box shadow, this will remove it */
+.navbar {
+  box-shadow: none;
+}
+
 
 @media (min-width: 768px) {
   .heroBanner {
@@ -25,5 +35,10 @@
   .column {
     width: 48%;
   }
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start; /* Align buttons to the left */
 }
 
