@@ -3,21 +3,27 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
+ .heroBanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  position: relative;
-  overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
+@media (min-width: 768px) {
   .heroBanner {
-    padding: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.column {
+  width: 100%;
 }
+
+@media (min-width: 768px) {
+  .column {
+    width: 48%;
+  }
+}
+
