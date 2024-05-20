@@ -26,6 +26,26 @@
   font-size: 18px;
 }
 
+.logoContainer {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+.logo {
+  margin-right: 16px; /* Add some space between the logo and the text */
+  height: 100px;
+  margin-top: -10px;
+}
+
+.buttonContainer {
+  margin-top: 16px; /* Add space between the text and the button */
+}
+
+.googlePlay {
+  width: auto; /* Adjust the width as needed */
+  height: 80px; /* Adjust the height as needed */
+}
+
 .textContainer {
   text-align: left; /* Ensure text aligns to the left */
 }
