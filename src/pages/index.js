@@ -12,6 +12,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className={clsx('container', styles.heroBanner)}>
+
         <div className={styles.column}>
           <div className={styles.logoContainer}>
             <img src="/img/logo2.png" alt="Logo" className={styles.logo} />
@@ -20,12 +21,13 @@ function HomepageHeader() {
                 {siteConfig.title}
               </Heading>
               <p className={styles.hero__subtitle}>{siteConfig.tagline}</p>
+              <div className={styles.buttonContainer}>
+                <img src="/img/google-play.png" alt="Get it on Google Play" className={styles.googlePlay} />
+              </div>
             </div>
           </div>
-          <div className={styles.buttonContainer}>
-            <img src="/img/google-play.png" alt="Get it on Google Play" className={styles.googlePlay} />
-          </div>
         </div>
+        
         <div className={styles.column}>
           <div className={styles.buttons}>
             <Link
