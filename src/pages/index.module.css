@@ -1,3 +1,11 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  width: 100%;
+}
+
 .heroBanner {
   display: flex;
   flex-direction: column;
@@ -7,12 +15,19 @@
 }
 
 .hero__title {
-  color: black; /* Set the title text color to black and ensure it takes precedence */
+  color: #2a2a2a; /* Set the title text color to black and ensure it takes precedence */
   font-family: 'Red Hat Display', sans-serif;
+  font-size: 40px;
+  margin-bottom:  5px;
 }
 
 .hero__subtitle {
   color: black; /* Set the subtitle text color to black and ensure it takes precedence */
+  font-size: 18px;
+}
+
+.textContainer {
+  text-align: left; /* Ensure text aligns to the left */
 }
 
 /* If there's a box shadow, this will remove it */
