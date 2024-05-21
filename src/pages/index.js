@@ -14,11 +14,11 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className={clsx('container', styles.heroBanner)}>
 
-      <div className={styles.column}>
-        <div className={styles.illustrationContainer}>
-          <img src="/img/illustration.png" alt="Get it on Google Play" className={styles.illustration} />
+        <div className={styles.column}>
+          <div className={styles.illustrationContainer}>
+            <img src="/img/illustration.png" alt="Get it on Google Play" className={styles.illustration} />
+          </div>
         </div>
-      </div>
 
 
         <div className={styles.column}>
@@ -43,10 +43,11 @@ function HomepageHeader() {
                   Docusaurus Tutorial - 5min ⏱️
                 </Link>
               </div>
-              
+
             </div>
           </div>
         </div>
+        
       </div>
     </header>
   );

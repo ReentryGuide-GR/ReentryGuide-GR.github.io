@@ -5,7 +5,9 @@
   align-items: center; /* Center items horizontally */
   justify-content: center; /* Center items vertically */
   width: 100%;
+  height: 100vh; /* Ensure the column takes the full viewport height */
 }
+
 
 .heroBanner {
   display: flex;
