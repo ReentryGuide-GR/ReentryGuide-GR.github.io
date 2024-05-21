@@ -116,6 +116,8 @@
 
 .textContainer {
   text-align: left; /* Ensure text aligns to the left */
+  margin-left: 10px;
+  margin-left: 10px;
 }
 
 /* If there's a box shadow, this will remove it */
@@ -137,7 +139,7 @@
   box-shadow: 0 8px 24px rgba(165, 157, 149, 0.3);
 }
 
-.row {
+.buttonRow {
   display: flex;
   align-items: center;
   flex: 1;
@@ -190,4 +192,17 @@
   display: flex;
   justify-content: flex-start; /* Align buttons to the left */
 }
+
+@media (max-width: 480px) {
+  .illustrationContainer {
+    height: 480px; /* Further adjust the height for very small screens */
+  }
+  .illustrationColumn {
+    height: 480px; 
+  }
+  .backgroundImage {
+    height: 480px;
+  }
+}
+
 
