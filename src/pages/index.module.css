@@ -76,12 +76,28 @@
 }
 
 
-.illustrationContainer {
-  margin-top: 0px; /* Add space between the text and the button */
-  width: 100%; /* Ensure full width */
+.illustrationColumn {
   display: flex;
-  justify-content: flex-start; /* Align items to the left */
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: flex-end; /* Align items to the bottom */
+  width: 100%;
+  height: 650px; /* Ensure the column takes the full viewport height */
+  position: relative; /* Add position relative to position the image absolutely */
 }
+
+.illustrationContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 650px; /* Adjust the height as needed */
+  background-image: url('/img/illustration.png');
+  background-size: contain; /* You can change this to 'cover' if needed */
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
 
 
 .illustration {

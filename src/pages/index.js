@@ -15,10 +15,8 @@ function HomepageHeader() {
       <div className={styles.backgroundImage}></div>
       <div className={clsx('container', styles.heroBanner)}>
 
-        <div className={styles.column}>
-          <div className={styles.illustrationContainer}>
-            <img src="/img/illustration.png" alt="Get it on Google Play" className={styles.illustration} />
-          </div>
+        <div className={styles.illustrationColumn}>
+          <div className={styles.illustrationContainer}></div>
         </div>
 
 
