@@ -25,21 +25,26 @@ function HomepageHeader() {
           <div className={styles.row}>
             {/* <img src="/img/logo2.png" alt="Logo" className={styles.logo} /> */}
             <div className={styles.textContainer}>
+
               <Heading as="h1" className={styles.hero__title}>
                 {siteConfig.title}
               </Heading>
+
               <p className={styles.hero__subtitle}>{siteConfig.tagline}</p>
+
+              <div className={styles.buttonContainer}>
+                <img src="/img/google-play.png" alt="Get it on Google Play" className={styles.googlePlay} />
+              </div>
+
+              <div className={styles.buttons}>
+                <Link
+                  className="button button--secondary button--lg"
+                  to="/docs/intro">
+                  Docusaurus Tutorial - 5min ⏱️
+                </Link>
+              </div>
+              
             </div>
-          </div>
-          <div className={styles.buttonContainer}>
-            <img src="/img/google-play.png" alt="Get it on Google Play" className={styles.googlePlay} />
-          </div>
-          <div className={styles.buttons}>
-            <Link
-              className="button button--secondary button--lg"
-              to="/docs/intro">
-              Docusaurus Tutorial - 5min ⏱️
-            </Link>
           </div>
         </div>
       </div>
