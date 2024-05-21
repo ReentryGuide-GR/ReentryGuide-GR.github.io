@@ -5,7 +5,7 @@
   align-items: center; /* Center items horizontally */
   justify-content: center; /* Center items vertically */
   width: 100%;
-  height: 100vh; /* Ensure the column takes the full viewport height */
+  height: 700px; /* Ensure the column takes the full viewport height */
 }
 
 
@@ -66,8 +66,6 @@
 .illustration {
   margin-top: 0px; /* Add space between the text and the button */
   /* position: absolute; */
-  left: 20;
-  top: 0;
   height: 700px;
 }
 
