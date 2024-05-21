@@ -1,10 +1,10 @@
 // index.js
+import Head from '@docusaurus/Head';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
@@ -67,8 +67,12 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title} - ${siteConfig.tagline}`}
       description="Description will go into a meta tag in <head />">
+      <Head>
+        <meta name="description" content="ReentryGuide GR is a mobile app brought by Reentry Reimagined to aid the reintegration of former prisoners in Grand Rapids. The app provides easy access to essential resources such as food, clothing, hygiene, and healthcare, ensuring a smoother transition back into society." />
+        <meta name="keywords" content="ReentryGuide GR, Reentry Reimagined, former prisoners, reintegration, Grand Rapids, food resources, clothing resources, hygiene resources, healthcare resources, smoother transition, societal reintegration, support services" />
+      </Head>
       <HomepageHeader />
       <main>
         {/* <HomepageFeatures /> */}
