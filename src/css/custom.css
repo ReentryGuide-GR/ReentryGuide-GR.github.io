@@ -49,3 +49,8 @@ body {
   font-family: var(--font-primary);
   font-weight: 500;
 }
+
+.footer {
+  background-color: #775022; /* Change this to your desired color */
+  color: #ffffff; /* Adjust the text color if needed */
+}

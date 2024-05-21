@@ -41,7 +41,7 @@
   color: #2a2a2a; /* Set the title text color to black and ensure it takes precedence */
   font-family: 'Red Hat Display', sans-serif;
   font-size: 40px;
-  margin-bottom:  5px;
+  margin-bottom:  0px;
 }
 
 .hero__subtitle {
@@ -68,8 +68,7 @@
 .logo {
   margin-right: 16px; /* Add some space between the logo and the text */
   height: 70px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .buttonContainer {
@@ -112,13 +111,11 @@
   height: 80px; /* Adjust the height as needed */
   position: relative;
   left: -12px;
-  top: -16px;
+  top: -10px;
 }
 
 .textContainer {
   text-align: left; /* Ensure text aligns to the left */
-  margin-left: 10px;
-  margin-left: 10px;
 }
 
 /* If there's a box shadow, this will remove it */
@@ -206,6 +203,7 @@
   }
   .row {
     flex-direction: column; /* Change to column layout on small screens */
+    margin-right: 0px;
   }
 }
 
