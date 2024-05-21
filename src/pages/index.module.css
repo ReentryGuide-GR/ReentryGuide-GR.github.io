@@ -1,3 +1,4 @@
+/* index.module.css */
 .column {
   display: flex;
   flex-direction: column;
@@ -12,6 +13,15 @@
   align-items: flex-start; /* Align items to the left */
   text-align: left; /* Align text to the left */
   background-color: transparent; /* Remove the green background */
+  width: 100%; /* Ensure full width */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.container {
+  width: 100%; /* Ensure full width */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
 }
 
 .hero__title {
@@ -31,6 +41,11 @@
   align-items: center; /* Center items vertically */
 }
 
+.row {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
 .logo {
   margin-right: 16px; /* Add some space between the logo and the text */
   height: 100px;
@@ -38,7 +53,19 @@
 }
 
 .buttonContainer {
-  margin-top: 16px; /* Add space between the text and the button */
+  margin-top: 0px; /* Add space between the text and the button */
+}
+
+.illustrationContainer {
+  margin-top: 0px; /* Add space between the text and the button */
+}
+
+.illustration {
+  margin-top: 0px; /* Add space between the text and the button */
+  /* position: absolute; */
+  left: 20;
+  top: 0;
+  height: 700px;
 }
 
 .googlePlay {
