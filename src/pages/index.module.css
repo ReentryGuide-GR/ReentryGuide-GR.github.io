@@ -62,13 +62,13 @@
 
 .row {
   display: flex;
-  align-items: center; /* Center items vertically */
+  align-items: start; /* Center items vertically */
 }
 
 .logo {
   margin-right: 16px; /* Add some space between the logo and the text */
-  height: 100px;
-  margin-top: -10px;
+  height: 70px;
+  margin-top: 5px;
 }
 
 .buttonContainer {
@@ -202,6 +202,9 @@
   }
   .backgroundImage {
     height: 480px;
+  }
+  .row {
+    flex-direction: column; /* Change to column layout on small screens */
   }
 }
 
