@@ -122,7 +122,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} by Reentry Reimagined. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} by Reentry Reimagined.`,
       },
       prism: {
         theme: prismThemes.github,
