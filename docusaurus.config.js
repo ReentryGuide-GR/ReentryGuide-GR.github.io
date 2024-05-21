@@ -66,19 +66,20 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'ReentryGuide GR',
+        title: '',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
+          className: 'navbar__logo',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
-            position: 'left',
+            position: 'right',
             label: 'Tutorial',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/blog', label: 'Blog', position: 'right' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
