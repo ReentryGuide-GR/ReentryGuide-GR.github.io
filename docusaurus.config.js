@@ -81,7 +81,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'right' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ReentryGuide-GR',
             label: 'GitHub',
             position: 'right',
           },
@@ -100,19 +100,11 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Organization',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Reentry Reimagined',
+                href: 'https://www.reentryreimagined.org/',
               },
             ],
           },
@@ -125,7 +117,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/ReentryGuide-GR',
               },
             ],
           },
