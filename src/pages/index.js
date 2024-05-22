@@ -48,8 +48,8 @@ function HomepageHeader() {
               <p className={styles.text}>Want to expand impact?</p>
               <Link className={styles.iconButton} to="/docs/intro">
                 <div className={styles.buttonRow}>
-                  <img src="/img/article.png" className={styles.icon} alt="icon" />
-                  <span className={styles.iconButtonText}>View Documentation</span>
+                  <img src="/img/fork.png" className={styles.icon} alt="icon" />
+                  <span className={styles.iconButtonText}>Fork Our Project</span>
                 </div>
                 <img src="/img/arrow_forward.png" className={styles.arrow} alt="arrow" />
               </Link>
