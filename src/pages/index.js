@@ -37,7 +37,7 @@ function HomepageHeader() {
               </div>
 
               <p className={styles.text}>Can't use a smart phone?</p>
-              <Link className={styles.iconButton} to="/docs/intro">
+              <Link className={styles.iconButton} to="docs/troubleshooting">
                 <div className={styles.buttonRow}>
                   <img src="/img/download.png" className={styles.icon} alt="icon" />
                   <span className={styles.iconButtonText}>Download Resource Sheet</span>
