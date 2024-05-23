@@ -46,7 +46,7 @@ function HomepageHeader() {
               </Link>
 
               <p className={styles.text}>Want to expand impact?</p>
-              <Link className={styles.iconButton} to="/docs/intro">
+              <Link className={styles.iconButton} to="/docs/developer-guide/intro">
                 <div className={styles.buttonRow}>
                   <img src="/img/fork.png" className={styles.icon} alt="icon" />
                   <span className={styles.iconButtonText}>Fork Our Project</span>

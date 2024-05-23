@@ -20,7 +20,7 @@ Welcome to the Developer Guide for ReentryGuide GR! This guide is designed to he
 
 To get started with the development, please follow the detailed guides on cloning and forking the project:
 
-- [How to Clone or Fork the Project](./Clone-or-Fork-the-Project.md)
+- [Clone or Fork the Project](./clone-or-fork-the-project.md)
 
 ### Prerequisites
 
