@@ -54,3 +54,15 @@ body {
   background-color: #141414; /* Change this to your desired color */
   color: #ffffff; /* Adjust the text color if needed */
 }
+
+
+
+.menu__link--active:not(.menu__link--sublist) {
+  border-left: 4px solid var(--ifm-color-primary-light);
+  padding-left: calc(1rem - 4px); /* Adjust padding to maintain alignment */
+}
+
+.menu__link {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
