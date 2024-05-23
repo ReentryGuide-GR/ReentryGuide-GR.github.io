@@ -135,6 +135,7 @@
   margin-bottom: 20px;
   background-color: #fff;
   box-shadow: 0 8px 24px rgba(165, 157, 149, 0.2);
+  max-width: 400px;
 }
 
 .buttonRow {
