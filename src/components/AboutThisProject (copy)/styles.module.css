@@ -1,0 +1,36 @@
+.aboutSection {
+  background-color: #141414; /* Black background */
+  color: #fff; /* White text */
+  padding: 3rem 0; /* Padding for top and bottom */
+  z-index: 40;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the container */
+  padding: 0 2rem; /* Add some padding on the sides */
+}
+
+.title {
+  padding-left: 1rem;
+  text-align: left; /* Align title to the left */
+  font-size: 28px;
+  font-family: 'Red Hat Display', sans-serif; /* Use Red Hat Display font */
+  font-weight: 600; /* Semi Bold */
+  margin-bottom: 1rem;
+  /* color: var(--ifm-color-primary-lightest); */
+}
+
+.column {
+  padding: 2rem;
+  font-size: 16px;
+  text-align: left; /* Ensure text is left-aligned */
+  font-family: 'Manrope', sans-serif; /* Use Manrope font */
+  font-weight: 500; /* Medium weight */
+}
+
+@media (max-width: 768px) {
+
+
+}
