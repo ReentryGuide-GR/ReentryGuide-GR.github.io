@@ -6,13 +6,18 @@
   position: relative;
 }
 
+.container {
+  max-width: 1200px; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the container */
+  padding: 0 2rem; /* Add some padding on the sides */
+}
+
 .title {
   text-align: left; /* Align title to the left */
   font-size: 30px;
   font-family: 'Red Hat Display', sans-serif; /* Use Red Hat Display font */
   font-weight: 600; /* Semi Bold */
   margin-bottom: 2rem;
-  margin-left: 2rem; /* Align the title's left side with the first column */
 }
 
 .column {
@@ -27,9 +32,11 @@
   .aboutSection {
     padding: 2rem 1rem; /* Adjust padding for smaller screens */
   }
+  .container {
+    padding: 0 1rem; /* Adjust padding for smaller screens */
+  }
   .title {
     font-size: 1.5rem;
-    margin-left: 1rem; /* Adjust margin for smaller screens */
   }
   .column {
     padding: 0.5rem;
