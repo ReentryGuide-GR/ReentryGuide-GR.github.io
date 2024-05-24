@@ -28,9 +28,9 @@
   text-align: left; /* Ensure text is left-aligned */
   font-family: 'Manrope', sans-serif; /* Use Manrope font */
   font-weight: 500; /* Medium weight */
+  max-width: 400px;
 }
 
 @media (max-width: 768px) {
-
 
 }

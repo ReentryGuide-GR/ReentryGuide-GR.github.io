@@ -194,6 +194,10 @@
   .textColumn {
     background-color: #fff; /* Set the background color to white */
   }
+  .row {
+    flex-direction: column; /* Change to column layout on small screens */
+    margin-right: 0px;
+  }
 }
 
 
@@ -211,10 +215,6 @@
   }
   .backgroundImage {
     height: 480px;
-  }
-  .row {
-    flex-direction: column; /* Change to column layout on small screens */
-    margin-right: 0px;
   }
 
 }
