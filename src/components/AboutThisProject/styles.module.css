@@ -1,0 +1,30 @@
+.aboutSection {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 3rem 0; /* Padding for top and bottom */
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.column {
+  padding: 1rem;
+  text-align: justify; /* Justify the text */
+}
+
+@media (max-width: 768px) {
+  .aboutSection {
+    padding: 2rem 1rem; /* Adjust padding for smaller screens */
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .column {
+    padding: 0.5rem;
+    text-align: left; /* Left align text on smaller screens */
+  }
+}
