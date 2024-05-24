@@ -31,6 +31,52 @@
   padding: 2rem;
 }
 
+
+.iconButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  width: 100%;
+  padding: 21px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 8px 24px rgba(165, 157, 149, 0.2);
+  max-width: 400px;
+}
+
+.buttonRow {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.icon {
+  margin-right: 0;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.arrow {
+  margin-right: 0;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.iconButtonText {
+  /* font-family: 'Manrope-SemiBold', sans-serif; */
+  /* font-weight: 600; */
+  letter-spacing: 0.3px;
+  font-size: 17px;
+  color: #000;
+  margin-left: 10px;
+  flex-shrink: 1; /* Added to allow text to shrink */
+}
+
 @media (max-width: 1024px) {
   .container {
     max-width: 700px;
