@@ -63,12 +63,13 @@
 .row {
   display: flex;
   align-items: start; /* Center items vertically */
+  margin-right: 10%;
 }
 
 .logo {
-  margin-right: 16px; /* Add some space between the logo and the text */
   height: 70px;
   margin-bottom: 10px;
+  margin-right: 16px;
 }
 
 .buttonContainer {
@@ -196,7 +197,7 @@
   }
   .row {
     flex-direction: column; /* Change to column layout on small screens */
-    margin-right: 0px;
+    margin-left: 10%;
   }
 }
 
@@ -216,6 +217,7 @@
   .backgroundImage {
     height: 480px;
   }
+  
 
 }
 
