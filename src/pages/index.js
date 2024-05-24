@@ -18,10 +18,10 @@ function HomepageHeader() {
     const handleScroll = () => {
       const offset = window.pageYOffset;
       if (backgroundRef.current) {
-        backgroundRef.current.style.backgroundPositionY = `${offset * 0.5}px`; // Adjust the value for desired effect
+        backgroundRef.current.style.backgroundPositionY = `${offset * 0.6}px`; // Adjust the value for desired effect
       }
       if (illustrationRef.current) {
-        illustrationRef.current.style.transform = `translateY(${offset * 0.2}px)`; // Adjust the value for slower effect
+        illustrationRef.current.style.transform = `translateY(${offset * 0.25}px)`; // Adjust the value for slower effect
       }
     };
 
