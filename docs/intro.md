@@ -4,11 +4,19 @@ sidebar_position: 1
 
 # Introduction
 
+<img src="https://raw.githubusercontent.com/ReentryGuide-GR/client/main/mockup.png?raw=true" alt="Mockup" title="Mockup" width="1000" />
+
 Welcome to the ReentryGuide GR Documentation!
 
 ## Overview
 
 This documentation provides all the necessary information to use and contribute to the ReentryGuide GR project. Whether you are an end user looking for troubleshooting tips or a developer wanting to implement this project in your city, you will find the relevant guides and resources here.
+
+## Features
+
+- **Resource Locator:** Dynamically finds the closest essential services like food, clothing, hygiene, and healthcare, etc.
+- **Integration with Google Maps:** Integrates with Google Maps for turn-by-turn navigation, guiding users to their selected resources by their own choice of navigation mode.
+- **User-Friendly Interface:** Designed for simplicity and ease of use.
 
 ## Sections
 

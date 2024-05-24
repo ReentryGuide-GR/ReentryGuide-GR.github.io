@@ -69,6 +69,10 @@ body {
 }
 
 /* Apply the font to the title */
+h1 {
+  color: var(--ifm-color-primary);
+}
+
 h1, h2, h3, h4 {
   font-family: 'Red Hat Display', sans-serif;
   font-weight: 700; /* Bold weight */
