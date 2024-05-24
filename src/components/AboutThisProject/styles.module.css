@@ -19,6 +19,7 @@
   font-family: 'Red Hat Display', sans-serif; /* Use Red Hat Display font */
   font-weight: 600; /* Semi Bold */
   margin-bottom: 1rem;
+  /* color: var(--ifm-color-primary-lightest); */
 }
 
 .column {
