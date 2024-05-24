@@ -18,7 +18,8 @@
   font-size: 30px;
   font-family: 'Red Hat Display', sans-serif; /* Use Red Hat Display font */
   font-weight: 700; /* Semi Bold */
-  margin-bottom: -0.5rem;
+  margin-bottom: -1.5rem;
+  margin-top: 1.5rem;
   color: var(--ifm-color-primary-dark);
 }
 
