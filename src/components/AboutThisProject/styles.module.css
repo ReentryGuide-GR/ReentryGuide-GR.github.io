@@ -1,19 +1,26 @@
 .aboutSection {
-  background-color: #000; /* Black background */
+  background-color: #141414; /* Black background */
   color: #fff; /* White text */
   padding: 3rem 0; /* Padding for top and bottom */
+  z-index: 40;
+  position: relative;
 }
 
 .title {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
+  text-align: left; /* Align title to the left */
+  font-size: 30px;
+  font-family: 'Red Hat Display', sans-serif; /* Use Red Hat Display font */
+  font-weight: 600; /* Semi Bold */
   margin-bottom: 2rem;
+  margin-left: 2rem; /* Align the title's left side with the first column */
 }
 
 .column {
   padding: 1rem;
-  text-align: justify; /* Justify the text */
+  font-size: 16px;
+  text-align: left; /* Ensure text is left-aligned */
+  font-family: 'Manrope', sans-serif; /* Use Manrope font */
+  font-weight: 500; /* Medium weight */
 }
 
 @media (max-width: 768px) {
@@ -22,9 +29,9 @@
   }
   .title {
     font-size: 1.5rem;
+    margin-left: 1rem; /* Adjust margin for smaller screens */
   }
   .column {
     padding: 0.5rem;
-    text-align: left; /* Left align text on smaller screens */
   }
 }

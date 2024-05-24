@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 export default function AboutThisProject() {
   return (
     <section className={styles.aboutSection}>
-      <div className="container">
+      <div className={styles.container}>
         <h2 className={styles.title}>ABOUT THIS PROJECT</h2>
         <div className="row">
           <div className={clsx('col col--4', styles.column)}>
