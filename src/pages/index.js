@@ -42,7 +42,7 @@ function HomepageHeader() {
         </div>
 
 
-        <div className={styles.column}>
+        <div className={clsx(styles.column, styles.textColumn)}>
           {/* <img src="/img/logo2.png" alt="Logo" className={styles.logo} /> */}
           <div className={styles.row}>
             <img src="/img/logo.svg" alt="logo" className={styles.logo} />

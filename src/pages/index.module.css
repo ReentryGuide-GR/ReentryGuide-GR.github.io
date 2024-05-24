@@ -168,7 +168,10 @@
   flex-shrink: 1; /* Added to allow text to shrink */
 }
 
-
+.textColumn {
+  z-index: 50;
+  background-color: transparent;
+}
 
 @media (min-width: 768px) {
   .heroBanner {
@@ -186,6 +189,13 @@
     width: 48%;
   }
 }
+
+@media (max-width: 768px) {
+  .textColumn {
+    background-color: #fff; /* Set the background color to white */
+  }
+}
+
 
 .buttons {
   display: flex;
@@ -206,6 +216,7 @@
     flex-direction: column; /* Change to column layout on small screens */
     margin-right: 0px;
   }
+
 }
 
 
