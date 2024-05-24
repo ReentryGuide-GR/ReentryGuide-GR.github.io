@@ -1,6 +1,6 @@
-.aboutSection {
-  background-color: #141414; /* Black background */
-  color: #fff; /* White text */
+.supportSection {
+  background-color: #fff;
+  color: #000; /* White text */
   padding: 3rem 0; /* Padding for top and bottom */
   z-index: 40;
   position: relative;
@@ -17,9 +17,9 @@
   text-align: left; /* Align title to the left */
   font-size: 28px;
   font-family: 'Red Hat Display', sans-serif; /* Use Red Hat Display font */
-  font-weight: 600; /* Semi Bold */
+  font-weight: 700; /* Semi Bold */
   margin-bottom: 1rem;
-  /* color: var(--ifm-color-primary-lightest); */
+  color: var(--ifm-color-primary-dark);
 }
 
 .column {

@@ -6,6 +6,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import AboutThisProject from '@site/src/components/AboutThisProject';
+import SupportOurMission from '@site/src/components/SupportOurMission';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
@@ -98,6 +99,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <AboutThisProject />
+        <SupportOurMission />
       </main>
     </Layout>
   );
