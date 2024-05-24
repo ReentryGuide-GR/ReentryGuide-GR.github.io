@@ -53,6 +53,7 @@ body {
 .footer {
   background-color: #141414; /* Change this to your desired color */
   color: #ffffff; /* Adjust the text color if needed */
+  z-index: 50;
 }
 
 
@@ -67,6 +68,9 @@ body {
   margin-bottom: 5px;
 }
 
-.footer {
-  z-index: 50;
+/* Apply the font to the title */
+h1, h2, h3, h4 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700; /* Bold weight */
 }
+
