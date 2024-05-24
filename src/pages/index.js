@@ -1,4 +1,5 @@
 // index.js
+import React, { useEffect, useRef } from 'react';
 import Head from '@docusaurus/Head';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
@@ -10,13 +11,34 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+  const backgroundRef = useRef(null);
+  const illustrationRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.pageYOffset;
+      if (backgroundRef.current) {
+        backgroundRef.current.style.backgroundPositionY = `${offset * 0.5}px`; // Adjust the value for desired effect
+      }
+      if (illustrationRef.current) {
+        illustrationRef.current.style.transform = `translateY(${offset * 0.2}px)`; // Adjust the value for slower effect
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className={styles.backgroundImage}></div>
+      <div ref={backgroundRef} className={styles.backgroundImage}></div>
       <div className={clsx('container', styles.heroBanner)}>
 
         <div className={clsx(styles.column, styles.illustrationColumn)}>
-          <div className={styles.illustrationContainer}></div>
+          <div ref={illustrationRef} className={styles.illustrationContainer}></div>
         </div>
 
 
