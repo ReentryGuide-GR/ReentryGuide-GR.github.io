@@ -6,7 +6,7 @@ export default function SupportOurMission() {
   return (
     <section className={styles.supportSection}>
       <div className={styles.container}>
-        <h2 className={styles.title}>Support Our Mission</h2>
+        <h2 className={styles.title}>SUPPORT OUR MISSION</h2>
         <div className="row">
           <div className={clsx('col col--4', styles.column)}>
             <h3>Fork Our Project</h3>

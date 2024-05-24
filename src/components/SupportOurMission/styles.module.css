@@ -18,19 +18,27 @@
   font-size: 28px;
   font-family: 'Red Hat Display', sans-serif; /* Use Red Hat Display font */
   font-weight: 700; /* Semi Bold */
-  margin-bottom: 1rem;
+  margin-bottom: -0.5rem;
   color: var(--ifm-color-primary-dark);
 }
 
 .column {
-  padding: 2rem;
+  
   font-size: 16px;
   text-align: left; /* Ensure text is left-aligned */
   font-family: 'Manrope', sans-serif; /* Use Manrope font */
   font-weight: 500; /* Medium weight */
-  max-width: 400px;
+  padding: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 700px;
+  }
 }
 
 @media (max-width: 768px) {
-
+  .container {
+    max-width: 500px;
+  }
 }
