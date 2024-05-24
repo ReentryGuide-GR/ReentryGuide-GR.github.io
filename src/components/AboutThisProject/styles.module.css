@@ -1,15 +1,26 @@
 .aboutSection {
   background-color: #141414; /* Black background */
   color: #fff; /* White text */
-  padding: 3rem 0; /* Padding for top and bottom */
   z-index: 40;
   position: relative;
+  display: flex;
+  width: 100%;
 }
 
-.container {
-  max-width: 1200px; /* Adjust the max-width as needed */
-  margin: 0 auto; /* Center the container */
-  padding: 0 2rem; /* Add some padding on the sides */
+.leftColumn {
+  width: 66.66%; /* 2/3 of the width */
+  padding: 4em;
+}
+
+.rightColumn {
+  width: 33.33%; /* 1/3 of the width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/img/photo.jpg');
+  background-size: cover; /* Adjust to cover the entire div */
+  background-repeat: no-repeat;
+  background-position: center center; /* Center the background image */
 }
 
 .title {
@@ -19,7 +30,6 @@
   font-family: 'Red Hat Display', sans-serif; /* Use Red Hat Display font */
   font-weight: 600; /* Semi Bold */
   margin-bottom: 1rem;
-  /* color: var(--ifm-color-primary-lightest); */
 }
 
 .column {
@@ -28,9 +38,28 @@
   text-align: left; /* Ensure text is left-aligned */
   font-family: 'Manrope', sans-serif; /* Use Manrope font */
   font-weight: 500; /* Medium weight */
+  max-width: 400px;
 }
 
 @media (max-width: 768px) {
-
-
+  .aboutSection {
+    flex-direction: column;
+  }
+  .leftColumn,
+  .rightColumn {
+    width: 100%;
+  }
+  .rightColumn {
+    height: 300px;
+  }
+  .title {
+    font-size: 24px;
+    padding-left: 0em;
+  }
+  .column {
+    padding: 1rem;
+  }
+  .rightColumn {
+    padding: 1rem 0;
+  }
 }
