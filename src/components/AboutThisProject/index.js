@@ -1,8 +1,24 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
 export default function AboutThisProject() {
+  const parallaxRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (parallaxRef.current) {
+        const scrollTop = window.pageYOffset;
+        parallaxRef.current.style.transform = `translateY(${scrollTop * -0.1}px)`; // Adjust the multiplier to change the parallax effect speed
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <section className={styles.aboutSection}>
       <div className={styles.leftColumn}>
@@ -20,6 +36,7 @@ export default function AboutThisProject() {
         </div>
       </div>
       <div className={styles.rightColumn}>
+        <div ref={parallaxRef} className={styles.parallaxImage}></div>
       </div>
 
     </section>

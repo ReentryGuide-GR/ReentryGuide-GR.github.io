@@ -17,11 +17,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden; /* Ensure the parallax image doesn't overflow */
+  position: relative; /* Ensure child elements are positioned relative to this container */
+}
+
+.parallaxImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150%; /* Increase height to allow for parallax effect */
   background-image: url('/img/photo.jpg');
   background-size: cover; /* Adjust to cover the entire div */
   background-repeat: no-repeat;
   background-position: center center; /* Center the background image */
+  transform: translateY(0); /* Initialize transform property */
+  transition: transform 0.1s linear; /* Smooth transition for the parallax effect */
 }
+
 
 .title {
   padding-left: 1rem;
@@ -50,7 +63,10 @@
     width: 100%;
   }
   .rightColumn {
-    height: 300px;
+    height: 400px;
+  }
+  .parallaxImage {
+    height: 500px;
   }
   .title {
     font-size: 24px;
