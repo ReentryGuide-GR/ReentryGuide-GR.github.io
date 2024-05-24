@@ -18,7 +18,7 @@
   font-size: 30px;
   font-family: 'Red Hat Display', sans-serif; /* Use Red Hat Display font */
   font-weight: 700; /* Semi Bold */
-  margin-bottom: -1.5rem;
+  margin-bottom: -0.5rem;
   margin-top: 1.5rem;
   color: var(--ifm-color-primary-dark);
 }
@@ -87,9 +87,6 @@
 @media (min-width: 997px) {
   .column {
     flex: auto;
-  }
-  .title {
-    padding-bottom: 1.5rem;
   }
   .column h3 {
     padding-bottom: 0.5rem;
