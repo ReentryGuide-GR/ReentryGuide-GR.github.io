@@ -46,6 +46,7 @@
 
 .hero__subtitle {
   color: black; /* Set the subtitle text color to black and ensure it takes precedence */
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 18px;
 }
 
