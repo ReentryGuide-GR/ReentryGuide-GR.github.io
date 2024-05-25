@@ -9,7 +9,7 @@ export default function AboutThisProject() {
     const handleScroll = () => {
       if (parallaxRef.current) {
         const scrollTop = window.pageYOffset;
-        parallaxRef.current.style.transform = `translateY(${scrollTop * -0.1}px)`; // Adjust the multiplier to change the parallax effect speed
+        parallaxRef.current.style.transform = `translateY(${scrollTop * -0.15}px)`; // Adjust the multiplier to change the parallax effect speed
       }
     };
 
