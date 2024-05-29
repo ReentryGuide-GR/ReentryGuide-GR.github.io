@@ -108,11 +108,15 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Resources',
             items: [
               {
-                label: 'GitHub',
+                label: 'GitHub Repository',
                 href: 'https://github.com/ReentryGuide-GR',
+              },
+              {
+                label: 'Privacy Policy',
+                to: '/privacy-policy',
               },
             ],
           },
