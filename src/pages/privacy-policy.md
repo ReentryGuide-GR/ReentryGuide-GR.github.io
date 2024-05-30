@@ -37,6 +37,14 @@ If you have any questions or concerns about this Privacy Policy, please contact 
 - Email: help@reentryreimagined.org
 - Address: 3rd floor Suite 330, 29 Pearl St NW, Grand Rapids, MI 49503
 
+### Disclosures
+
+Our app does not collect any user data. However, it includes the following functionalities that you should be aware of:
+
+1. **External Links to Third-Party Applications:** Our app opens third-party applications such as Google Maps and Moovit through linking. When you use these links, you are subject to the privacy policies of those third-party applications.
+
+2. **Documentation Links:** Our app includes links that open documentation hosted on GitHub Pages. While we do not collect any data through these links, GitHub Pages may collect certain non-personally identifiable information as part of their normal operation. For more details on what information GitHub Pages may collect, please refer to [GitHub's Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement).
+
 ### Distinction from Reentry Reimagined Privacy Policy
 
 Please note that this Privacy Policy is specific to the ReentryGuide GR app and website. ReentryGuide GR is developed by Reentry Reimagined, a nonprofit organization. The privacy practices of Reentry Reimagined's main website ([reentryreimagined.org](https://reentryreimagined.org)) are governed by a separate privacy policy. We encourage you to review the privacy policy of [reentryreimagined.org](https://reentryreimagined.org) for information on how personal data is handled by the nonprofit organization.
