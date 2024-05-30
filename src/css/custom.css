@@ -38,6 +38,7 @@
   font-weight: var(--navbar-item-font-weight);
   padding-left: 25px; /* Adjust as needed for more padding */
   padding-right: 25px; /* Adjust as needed for more padding */
+  padding-bottom: 12px;
 }
 
 .navbar__logo {
