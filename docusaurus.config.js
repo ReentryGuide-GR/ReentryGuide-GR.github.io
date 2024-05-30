@@ -121,7 +121,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} by Reentry Reimagined. All rights reserved.`,
+        copyright: ` © ${new Date().getFullYear()} by Reentry Reimagined. All rights reserved.`,
       },
       prism: {
         theme: prismThemes.github,
