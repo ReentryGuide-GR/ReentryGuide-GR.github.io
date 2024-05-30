@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import PrivacyPolicy from './privacy-policy.md';
+import PrivacyPolicy from './privacy-policy-content.md';
 
 export default function PrivacyPolicyPage() {
   return (
