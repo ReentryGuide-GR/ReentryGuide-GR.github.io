@@ -90,6 +90,18 @@ const config = {
         style: 'dark',
         links: [
           {
+            items: [
+              {
+                html: `
+                <div style="margin-top:-20px; display: flex; flex-direction: column; align-items: flex-start; text-align: left;">
+                  <img src="/img/reentry_reimagined_logo_white.png" alt="Reentry Reimagined Logo" style="height: 80px; width: auto; margin-bottom: 10px;" />
+                  <span>A project by </br> <a href="https://www.reentryreimagined.org/" style="color: inherit; text-decoration: underline;">Reentry Reimagined</a></span>
+                </div>
+                `,
+              },
+            ],
+          },
+          {
             title: 'Docs',
             items: [
               {
@@ -98,15 +110,15 @@ const config = {
               },
             ],
           },
-          {
-            title: 'Organization',
-            items: [
-              {
-                label: 'Reentry Reimagined',
-                href: 'https://www.reentryreimagined.org/',
-              },
-            ],
-          },
+          // {
+          //   title: 'Organization',
+          //   items: [
+          //     {
+          //       label: 'Reentry Reimagined',
+          //       href: 'https://www.reentryreimagined.org/',
+          //     },
+          //   ],
+          // },
           {
             title: 'Resources',
             items: [
