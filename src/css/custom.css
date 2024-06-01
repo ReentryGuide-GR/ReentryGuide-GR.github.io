@@ -19,6 +19,7 @@
   --font-primary: 'Manrope', sans-serif;
   --navbar-item-font: 'Manrope', sans-serif;
   --navbar-item-font-weight: 700; 
+  --ifm-navbar-padding-vertical: 0px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -33,17 +34,21 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+.navbar__items {
+  justify-content: left;
+}
+
 .navbar__item {
   font-family: var(--navbar-item-font);
   font-weight: var(--navbar-item-font-weight);
   padding-left: 25px; /* Adjust as needed for more padding */
   padding-right: 25px; /* Adjust as needed for more padding */
-  padding-bottom: 12px;
 }
 
 .navbar__logo {
   width: 200px; /* Adjust the width as needed */
   height: auto; /* Maintain the aspect ratio */
+  padding-top: 2px;
 }
 
 body {

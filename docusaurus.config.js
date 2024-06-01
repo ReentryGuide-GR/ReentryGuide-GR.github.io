@@ -84,7 +84,17 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            type: 'html',
+            position: 'left',
+            value: `
+              <a href="https://github.com/ReentryGuide-GR" target="_blank" rel="noopener noreferrer">
+                <img src="img/reentry_reimagined_logo.png" alt="Reentry Reimagined Logo" style="height: 50px;"/>
+              </a>
+            `,
+          },
         ],
+        
       },
       footer: {
         style: 'dark',
@@ -94,7 +104,7 @@ const config = {
               {
                 html: `
                 <div style="margin-top:-20px; display: flex; flex-direction: column; align-items: flex-start; text-align: left;">
-                  <img src="/img/reentry_reimagined_logo_white.png" alt="Reentry Reimagined Logo" style="height: 80px; width: auto; margin-bottom: 10px;" />
+                  <img src="/img/reentry_reimagined_logo_white.png" alt="Reentry Reimagined Logo" style="height: 70px; width: auto; margin-bottom: 10px;" />
                   <span>A project by </br> <a href="https://www.reentryreimagined.org/" style="color: inherit; text-decoration: underline;">Reentry Reimagined</a></span>
                 </div>
                 `,
