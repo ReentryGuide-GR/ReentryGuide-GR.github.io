@@ -22,7 +22,7 @@ This documentation provides all the necessary information to use and contribute 
 
 ### If Google Maps Crashes
 
-- This page is written for end users to provide solutions in case if Google Maps doesn't work on their phone.
+- This page is written to provide solutions for end users in case if Google Maps doesn't work on their phone.
 
 ### Developer Guide
 
