@@ -73,10 +73,3 @@ yarn install
 ```sh
 npx expo start
 ```
-
-### License
-This project is licensed under the GNU General Public License v3. See the LICENSE file for more details.
-
-### Acknowledgements
-
-- React Navigation

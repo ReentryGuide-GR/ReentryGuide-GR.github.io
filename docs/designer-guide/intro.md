@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Getting Started
+# Design Basics
 
 Welcome to the Developer Guide for ReentryGuide GR! This guide is designed to help developers understand the project and get started with development.
 
