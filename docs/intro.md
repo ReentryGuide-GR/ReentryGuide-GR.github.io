@@ -10,6 +10,8 @@ Welcome to the ReentryGuide GR Documentation!
 
 ## Overview
 
+"ReentryGuide GR" is a mobile application designed specifically to support the reintegration of former prisoners into society within the Grand Rapids area. With a focus on accessibility and user-friendliness, "ReentryGuide GR" simplifies the process of finding food, clothing, hygiene, and healthcare, thereby supporting users in their journey towards reintegration.
+
 This documentation provides all the necessary information to use and contribute to the ReentryGuide GR project. Whether you are an end user looking for troubleshooting tips or a developer wanting to implement this project in your city, you will find the relevant guides and resources here.
 
 ## Features
@@ -27,7 +29,6 @@ This documentation provides all the necessary information to use and contribute 
 ### Developer Guide
 
 - **Introduction**: Overview of the project and its development.
-- **Design Principles**: Understand the core principles behind the app's design.
 - **Setting Up Development Environment**: Steps to clone or fork the project and get started with development.
 
 ## Get Involved
