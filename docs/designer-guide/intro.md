@@ -4,38 +4,20 @@ sidebar_position: 1
 
 # Design Basics
 
-Welcome to the Developer Guide for ReentryGuide GR! This guide is designed to help developers understand the project and get started with development.
+## Intro
 
-## Overview
+The Reentry Guide app is designed to be as inclusive as possible. Many former incarcerated individuals may have never used a smartphone and could have brain injuries or chronic diseases. Therefore, we are not designing the app for advanced users like those who use Arch Linux. Instead, we are making the app so simple that even a 4-year-old can easily operate and understand it.
 
-"ReentryGuide GR" is a mobile application designed specifically to support the reintegration of former prisoners into society within the Grand Rapids area. With a focus on accessibility and user-friendliness, "ReentryGuide GR" simplifies the process of finding food, clothing, hygiene, and healthcare, thereby supporting users in their journey towards reintegration.
+## Key Principles
 
-## Getting Started
+### Simplicity
 
-To get started with the development, please follow the detailed guides on cloning and forking the project:
+Keep the design straightforward and intuitive. Avoid unnecessary complexity to ensure that users of all ages and abilities can easily navigate the app.
 
-- [Clone or Fork the Project](./clone-or-fork-the-project.md)
+### Accessibility
 
-### Prerequisites
+Ensure that the app is accessible to users with various disabilities. 
 
-Ensure you have the following installed:
+### Consistency
 
-- Node.js
-- npm or Yarn
-- React Native environment setup
-
-### Running the App
-
-Once you have cloned or forked the repository and installed the dependencies, you can start the application using the following command:
-
-Using npm:
-```sh
-npx expo start
-```
-
-### License
-This project is licensed under the GNU General Public License v3. See the LICENSE file for more details.
-
-### Acknowledgements
-
-- React Navigation
+Maintain a consistent design language throughout the app. Consistency helps users learn and navigate the app more easily, creating a seamless experience.
