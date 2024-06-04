@@ -1,6 +1,6 @@
 .aboutSection {
-  background-color: #775022; /* Black background */
-  color: #fff; /* White text */
+  background-color: #FFF8F1; /* Black background */
+  color: #000; /* White text */
   z-index: 40;
   position: relative;
   display: flex;
@@ -42,6 +42,7 @@
   font-family: 'Red Hat Display', sans-serif; /* Use Red Hat Display font */
   font-weight: 800; /* Semi Bold */
   margin-bottom: 1.5rem;
+  color: #775022;
 }
 
 .column {
