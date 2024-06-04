@@ -1,5 +1,5 @@
 .supportSection {
-  background-color: #FFF8F1;
+  background-color: #fff;
   color: #000; /* White text */
   padding: 3rem 0; /* Padding for top and bottom */
   z-index: 40;
@@ -15,9 +15,9 @@
 .title {
   padding-left: 1rem;
   text-align: left; /* Align title to the left */
-  font-size: 30px;
+  font-size: 28px;
   font-family: 'Red Hat Display', sans-serif; /* Use Red Hat Display font */
-  font-weight: 700; /* Semi Bold */
+  font-weight: 800; /* Semi Bold */
   margin-bottom: -0.5rem;
   margin-top: 1.5rem;
   color: var(--ifm-color-primary-dark);
@@ -43,8 +43,8 @@
   padding: 21px;
   margin-top: 5px;
   margin-bottom: 20px;
-  background-color: #fff;
-  box-shadow: 0 8px 24px rgba(165, 157, 149, 0.2);
+  background-color: #EAE0D4;
+  box-shadow: 0 8px 24px rgba(16, 15, 14, 0.1);
   max-width: 400px;
 }
 

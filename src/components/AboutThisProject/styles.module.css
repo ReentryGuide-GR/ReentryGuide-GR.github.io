@@ -38,9 +38,9 @@
 
 .title {
   text-align: left; /* Align title to the left */
-  font-size: 30px;
+  font-size: 28px;
   font-family: 'Red Hat Display', sans-serif; /* Use Red Hat Display font */
-  font-weight: 600; /* Semi Bold */
+  font-weight: 800; /* Semi Bold */
   margin-bottom: 1.5rem;
 }
 
