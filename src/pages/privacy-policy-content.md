@@ -10,6 +10,9 @@ Reentry Reimagined is committed to protecting your privacy. This Privacy Policy 
 
 Our mobile app "ReentryGuide GR" does not collect, store, or transmit any personal data from users. We do not collect any information such as names, email addresses, location data, or any other personal information.
 
+- #### Location Data: 
+- Our app uses your location solely by calculating distances from your current location to various resource locations. This data allows the app to display the distance information on individual resource pages and to find the closest resource when you use the "Closest Location" feature. Importantly, these location values are never shared with us, third parties, or transmitted off your phone. The location data is used in real-time on your device and is not stored or processed elsewhere. 
+
 #### Website
 
 The website for mobile app "ReentryGuide GR", [reentryguidegr.org](https://reentryguidegr.org), does not collect any personal data. However, please be aware that our website is hosted on GitHub Pages, and GitHub Pages may collect certain non-personally identifiable information as part of their normal operation. For more details on what information GitHub Pages may collect, please refer to [GitHub's Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement).
