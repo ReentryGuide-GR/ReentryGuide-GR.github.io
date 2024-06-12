@@ -123,6 +123,10 @@ const config = {
                 label: 'Developer Guide',
                 to: 'docs/category/developer-guide',
               },
+              {
+                label: 'Designer Guide',
+                to: 'docs/category/designer-guide',
+              },
             ],
           },
           // {
