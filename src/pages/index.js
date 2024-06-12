@@ -55,9 +55,9 @@ function HomepageHeader() {
 
               <p className={styles.hero__subtitle}>{siteConfig.tagline}</p>
 
-              <div className={styles.buttonContainer}>
+              <Link  className={styles.buttonContainer} to="https://play.google.com/store/apps/details?id=com.reentryreimagined.reentryguidegr">
                 <img src="/img/google-play.png" alt="Get it on Google Play" className={styles.googlePlay} />
-              </div>
+              </Link >
 
               <p className={styles.text}>Can't use a smart phone?</p>
               <Link className={styles.iconButton} to="">
