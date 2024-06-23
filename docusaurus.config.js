@@ -117,7 +117,7 @@ const config = {
             ],
           },
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
                 label: 'Developer Guide',
