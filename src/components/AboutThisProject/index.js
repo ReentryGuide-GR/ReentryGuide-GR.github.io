@@ -30,7 +30,7 @@ export default function AboutThisProject() {
           </div>
           <div className={clsx('col col--6', styles.column)}>
             <p>To address these issues, we designed and developed this app with simplicity and ease of use in mind.</p>
-            <p>Our goal is to streamline the process of finding essential resources, such as food, shelter, hygiene, and healthcare, enabling users to easily navigate to the locations offering these services.</p>
+            <p>Our goal is to streamline the process of finding essential resources, such as food, clothing, hygiene, and healthcare, enabling users to easily navigate to the locations offering these services.</p>
             <p>Currently, this app is only implemented in Grand Rapids. We encourage you to fork this app and implement the project in your city to help more people benefit from these essential resources.</p>
           </div>
         </div>
