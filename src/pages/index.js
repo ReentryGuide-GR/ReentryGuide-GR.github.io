@@ -60,10 +60,10 @@ function HomepageHeader() {
               </Link >
 
               <p className={styles.text}>Can't use a smart phone?</p>
-              <Link className={styles.iconButton} to="">
+              <Link className={styles.iconButton} to="https://reentryguidegr.org/ReentryGuide-GR-Resource-Sheet.pdf">
                 <div className={styles.buttonRow}>
                   <img src="/img/download.png" className={styles.icon} alt="icon" />
-                  <span className={styles.iconButtonText}>Download Resource Sheet (Comming soon)</span>
+                  <span className={styles.iconButtonText}>Download Resource Sheet</span>
                 </div>
                 <img src="/img/arrow_forward.png" className={styles.arrow} alt="arrow" />
               </Link>
