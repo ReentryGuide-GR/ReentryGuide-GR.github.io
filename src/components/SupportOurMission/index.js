@@ -10,19 +10,19 @@ export default function SupportOurMission() {
         <h2 className={styles.title}>Support Our Mission</h2>
         <div className="row">
           <div className={clsx('col col--4', styles.column)}>
-            <h3>Fork Our Project</h3>
-            <p>Take our project to your city! Fork our app on GitHub and start helping formerly incarcerated individuals in your community. Together, we can expand our impact and provide essential resources to more people in need. </p>
-            <Link className={styles.iconButton} to="/docs/category/developer-guide">
+            <h3>Distribute Our Flyer</h3>
+            <p>Download our flyer, print copies, and distribute them in your community. This simple act can help us to reach out and benefit more people. Are you part of an organization? Consider displaying the flyer as a poster in your office or community space. </p>
+            <Link className={styles.iconButton} to="https://reentryguidegr.org/flyer.pdf">
               <div className={styles.buttonRow}>
-                <img src="/img/fork.png" className={styles.icon} alt="icon" />
-                <span className={styles.iconButtonText}>Fork Our Project</span>
+                <img src="/img/download.png" className={styles.icon} alt="icon" />
+                <span className={styles.iconButtonText}>Download Flyer</span>
               </div>
               <img src="/img/arrow_forward.png" className={styles.arrow} alt="arrow" />
             </Link>
           </div>
           <div className={clsx('col col--4', styles.column)}>
-            <h3>Contribute to Our Project</h3>
-            <p>Have suggestions, found a bug, or want to improve our app? Open an issue on our GitHub repository. Your feedback and contributions are invaluable to us and help make our app better for everyone. </p>
+            <h3>Join Our Project</h3>
+            <p>Take our project to your community! Fork our app on GitHub and start helping formerly incarcerated individuals where you live. Have suggestions or found a bug? Open an issue in our repository. </p>
             <Link className={styles.iconButton} to="https://github.com/ReentryGuide-GR">
               <div className={styles.buttonRow}>
                 <img src="/img/github.svg" className={styles.icon} alt="icon" />
