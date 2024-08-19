@@ -11,7 +11,7 @@ export default function SupportOurMission() {
         <div className="row">
           <div className={clsx('col col--4', styles.column)}>
             <h3>Distribute Our Flyer</h3>
-            <p>Download our flyer, print copies, and distribute them in your community. This simple act can help us to reach out and benefit more people. Are you part of an organization? Consider displaying the flyer as a poster in your office or community space. </p>
+            <p>Download our flyer, print copies, and distribute them in your community. This can help us to reach out and benefit more people. Are you part of an organization? Consider displaying the flyer as a poster in your office or community space. </p>
             <Link className={styles.iconButton} to="https://reentryguidegr.org/flyer.pdf">
               <div className={styles.buttonRow}>
                 <img src="/img/download.png" className={styles.icon} alt="icon" />
