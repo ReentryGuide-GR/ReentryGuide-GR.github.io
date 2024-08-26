@@ -22,7 +22,11 @@ export default function SupportOurMission() {
           </div>
           <div className={clsx('col col--4', styles.column)}>
             <h3>Join Our Project</h3>
-            <p>Take our project to your community! Fork our app on GitHub and start helping formerly incarcerated individuals where you live. Have suggestions or found a bug? Open an issue in our repository. </p>
+            <p>
+              Take our project to your community! Fork our app on GitHub and start helping formerly incarcerated individuals where you live. Have suggestions or found a bug? Open an issue in our repository. 
+              <br />
+              <br />
+            </p>
             <Link className={styles.iconButton} to="https://github.com/ReentryGuide-GR">
               <div className={styles.buttonRow}>
                 <img src="/img/github.svg" className={styles.icon} alt="icon" />
