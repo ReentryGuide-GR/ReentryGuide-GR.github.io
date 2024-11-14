@@ -110,7 +110,8 @@ const config = {
                 html: `
                 <div style="margin-top:-20px; display: flex; flex-direction: column; align-items: flex-start; text-align: left;">
                   <img src="/img/reentry_reimagined_logo_white.png" alt="Reentry Reimagined Logo" style="height: 70px; width: auto; margin-bottom: 10px;" />
-                  <span>A project by</br><a href="https://www.reentryreimagined.org/" style="color: inherit; text-decoration: underline;">Reentry Reimagined</a></span>
+                  <span style="color: #aaa;">A project by <a href="https://www.reentryreimagined.org/" style="color: #fff; text-decoration: underline;">Reentry Reimagined</a></span>
+                  <span style="color: #aaa;">Developed by <a href="https://www.harrygu.art/" style="color: #fff; text-decoration: underline;">harrygu.art</a></span>
                 </div>
                 `,
               },
