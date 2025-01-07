@@ -173,7 +173,7 @@
 .textColumn {
   z-index: 50;
   background-color: transparent;
-  
+  margin-left: 150px;
 }
 
 @media (min-width: 768px) {
@@ -198,7 +198,6 @@
     background-color: #fff; /* Set the background color to white */
   }
   .row {
-    flex-direction: column; /* Change to column layout on small screens */
     margin-left: 10%;
   }
 }
