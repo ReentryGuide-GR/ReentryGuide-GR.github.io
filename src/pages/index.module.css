@@ -47,12 +47,12 @@
 .hero__subtitle {
   color: black; /* Set the subtitle text color to black and ensure it takes precedence */
   font-family: 'Red Hat Display', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .text {
   color: black; /* Set the subtitle text color to black and ensure it takes precedence */
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 0px !important; 
 }
 
@@ -166,7 +166,7 @@
   /* font-family: 'Manrope-SemiBold', sans-serif; */
   /* font-weight: 600; */
   letter-spacing: 0.3px;
-  font-size: 17px;
+  font-size: 16px;
   color: #000;
   margin-left: 10px;
   flex-shrink: 1; /* Added to allow text to shrink */
