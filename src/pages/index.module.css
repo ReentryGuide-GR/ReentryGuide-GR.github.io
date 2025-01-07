@@ -68,9 +68,9 @@
 }
 
 .logo {
-  height: 130px;
+  height: 140px;
   /* margin-bottom: 10px; */
-  margin-left: -110px;
+  margin-left: -118px;
   margin-bottom: -10px;
 }
 
@@ -226,7 +226,6 @@
   }
 
   .logo {
-    height: 130px;
     /* margin-bottom: 10px; */
     margin-left: -30px;
   }
