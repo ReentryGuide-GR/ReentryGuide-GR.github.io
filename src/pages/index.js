@@ -46,14 +46,13 @@ function HomepageHeader() {
         <div className={clsx(styles.column, styles.textColumn)}>
           {/* <img src="/img/logo2.png" alt="Logo" className={styles.logo} /> */}
           <div className={styles.row}>
-            <img src="/img/logo.svg" alt="logo" className={styles.logo} />
             <div className={styles.textContainer}>
-
-              <Heading as="h1" className={styles.hero__title}>
+            <img src="/img/logo-tagline.svg" alt="ReentryGuide GR - Your local resource navigator" className={styles.logo} />
+              {/* <Heading as="h1" className={styles.hero__title}>
                 {siteConfig.title}
-              </Heading>
+              </Heading> */}
 
-              <p className={styles.hero__subtitle}>{siteConfig.tagline}</p>
+              {/* <p className={styles.hero__subtitle}>{siteConfig.tagline}</p> */}
 
               <Link  className={styles.buttonContainer} to="https://play.google.com/store/apps/details?id=com.reentryreimagined.reentryguidegr">
                 <img src="/img/google-play-banner.png" alt="Get it on Google Play" className={styles.googlePlay} />
