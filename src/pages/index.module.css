@@ -47,12 +47,12 @@
 .hero__subtitle {
   color: black; /* Set the subtitle text color to black and ensure it takes precedence */
   font-family: 'Red Hat Display', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .text {
   color: black; /* Set the subtitle text color to black and ensure it takes precedence */
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 0px !important; 
 }
 
@@ -68,12 +68,14 @@
 }
 
 .logo {
-  height: 70px;
-  margin-bottom: 10px;
-  margin-right: 26px;
+  height: 140px;
+  /* margin-bottom: 10px; */
+  margin-left: -118px;
+  margin-bottom: -10px;
 }
 
 .buttonContainer {
+  display: block;
   margin-top: 0px; /* Add space between the text and the button */
 }
 
@@ -164,7 +166,7 @@
   /* font-family: 'Manrope-SemiBold', sans-serif; */
   /* font-weight: 600; */
   letter-spacing: 0.3px;
-  font-size: 17px;
+  font-size: 16px;
   color: #000;
   margin-left: 10px;
   flex-shrink: 1; /* Added to allow text to shrink */
@@ -173,6 +175,7 @@
 .textColumn {
   z-index: 50;
   background-color: transparent;
+  /* margin-left: 150px; */
 }
 
 @media (min-width: 768px) {
@@ -197,7 +200,6 @@
     background-color: #fff; /* Set the background color to white */
   }
   .row {
-    flex-direction: column; /* Change to column layout on small screens */
     margin-left: 10%;
   }
 }
@@ -224,9 +226,9 @@
   }
 
   .logo {
-    height: 50px;
+    /* margin-bottom: 10px; */
+    margin-left: -30px;
   }
-  
 }
 
 
