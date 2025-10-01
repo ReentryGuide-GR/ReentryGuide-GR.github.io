@@ -49,8 +49,8 @@ function HomepageHeader() {
 
               <img src="/img/logo-tagline.svg" alt="ReentryGuide GR - Your local resource navigator" className={styles.logo} />
 
-              <Link  className={styles.buttonContainer} to="https://play.google.com/store/apps/details?id=com.reentryreimagined.reentryguidegr">
-                <img src="/img/google-play-banner.png" alt="Get it on Google Play" className={styles.googlePlay} />
+              <Link  className={styles.buttonContainer} to="https://github.com/ReentryGuide-GR/client/releases">
+                <img src="/img/github-banner.png" alt="Get it on GitHub" className={styles.googlePlay} />
               </Link >
 
               <p className={styles.text}>Can't use a smart phone?</p>
